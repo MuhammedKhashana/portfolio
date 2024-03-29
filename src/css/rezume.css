@@ -1,0 +1,42 @@
+/* START SKILLS */
+.skills .skill-box div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.skills .skill-box img {
+    width: 50%;
+}
+
+/* END SKILLS */
+/* ######################### */
+/* START PROJECTS */
+/* END PROJECTS */
+/* ######################## */
+/* START PROJECTS */
+.goto-icon a svg {
+    width: 60%;
+    height: 60%;
+    cursor: pointer;
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+.goto-icon a svg:hover {
+    transform: translateX(3px);
+    -webkit-transform: translateX(3px);
+    -moz-transform: translateX(3px);
+    -ms-transform: translateX(3px);
+    -o-transform: translateX(3px);
+    transition: all 0.3s;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    -ms-transition: all 0.3s;
+    -o-transition: all 0.3s;
+}
+
+/* END PROJECTS */

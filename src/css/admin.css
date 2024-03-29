@@ -1,0 +1,19 @@
+/* START ADMIN PAGE */
+
+.admin-sittings {
+    color: black;
+}
+
+.admin-sittings div a {
+    font-size: large;
+    font-weight: bold;
+    padding: 22px;
+    background: aliceblue;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+/* END ADMIN PAGE */

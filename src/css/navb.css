@@ -1,0 +1,8 @@
+.navb {
+    position: fixed;
+    z-index: 10000;
+    top: 0%;
+    /* background: #c6c6c67a; */
+    border-bottom-left-radius: 12px;
+    border-bottom-right-radius: 12px;
+}

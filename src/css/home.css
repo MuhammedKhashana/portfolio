@@ -1,0 +1,97 @@
+/*  START HERO SECTION */
+.heroSection {
+    height: fit-content;
+    position: relative;
+}
+
+.heroTxt {
+    top: 50%
+}
+
+.heroTxt .animation p {
+    padding: 0 !important;
+    margin: 0 !important;
+}
+
+.heroTxt div:nth-child(3) span {
+    filter: brightness(0.8);
+    -webkit-filter: brightness(0.8);
+}
+
+
+/*  END HERO SECTION */
+/* #################################### */
+/* START ABOUT ME */
+.about-me-btns {
+    background-color: antiquewhite;
+    border-radius: 12px;
+    -webkit-border-radius: 12px;
+    -moz-border-radius: 12px;
+    -ms-border-radius: 12px;
+    -o-border-radius: 12px;
+}
+
+.about-me-btns a {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.about-me-btns a:hover {
+    background-color: whitesmoke;
+    border-top-left-radius: 12px;
+    border-bottom-left-radius: 12px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.about-me-btns button {
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+.about-me-btns button:hover {
+    background-color: whitesmoke;
+    border-top-right-radius: 12px;
+    border-bottom-right-radius: 12px;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+/* END ABOUT ME */
+/* ############################### */
+/* START MY SERVICES */
+.my-service-container {
+    height: fit-content;
+}
+
+.service-card {
+    height: fit-content;
+}
+
+div .service-card .service-Img {
+    width: 20%;
+}
+
+div .service-card .service-card-txt div {
+    font-weight: semibold;
+    font-size: 100%;
+}
+
+div .service-card .service-card-txt p {
+    font-weight: lighter;
+    font-size: 100%;
+}
+
+/* END MY SERVICES */

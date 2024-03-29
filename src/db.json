@@ -1,0 +1,81 @@
+{
+  "services": [
+    {
+      "id": "7",
+      "title": "HTML & CSS Responsive Web Design",
+      "desc": "Enterprise-class websites need consistent colors, fonts, and design to match the organization's branding guidelines. Toptal’s front-end developers are experts at designing responsive websites, with CSS at the core of front end development alongside JavaScript and HTML.",
+      "icon": "https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fbenefit%2F5991356%2Fimage%2Foptimized%2F01-HTML_and_CSS_Responsive_Web_Design-1a7d52e582f14fbd8226197b4a80e1f7.svg"
+    },
+    {
+      "title": "design 2345",
+      "desc": "descriptionteeeeeeeeee xt",
+      "icon": "https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fbenefit%2F5991356%2Fimage%2Foptimized%2F01-HTML_and_CSS_Responsive_Web_Design-1a7d52e582f14fbd8226197b4a80e1f7.svg",
+      "id": "f248"
+    }
+  ],
+  "education": [
+    {
+      "id": "1",
+      "startDate": "March 2013",
+      "endDate": "Present",
+      "title": "Masteral in Information Technology",
+      "desc": "Even the all-powerful Pointing has no control about the blind texts it is an almost unorthographic."
+    },
+    {
+      "id": "6a18",
+      "startDate": "2022-01-22",
+      "endDate": "2026-06-22",
+      "title": "SCU FCI",
+      "desc": "Faculity Of Computer And Informatics in Computer Science"
+    }
+  ],
+  "skills": [
+    {
+      "id": "1",
+      "icon": "https://img.icons8.com/?size=512&id=38272&format=png"
+    },
+    {
+      "icon": "https://assets.toptal.io/images?url=https%3A%2F%2Fbs-uploads.toptal.io%2Fblackfish-uploads%2Fcomponents%2Fbenefit%2F5991351%2Fimage%2Foptimized%2F06-CMS_Theming_Services-634412d21af278f4fb9cc592d5577ba5.svg",
+      "id": "a6d1"
+    }
+  ],
+  "projects": [
+    {
+      "title": "React JS Web Development",
+      "desc": "ReactJS is renowned for its extensibility, adjustability, and convenience. Toptal ReactJS developers create complex software for your business, including web browsers and mobile application user interfaces.",
+      "image": "https://images.unsplash.com/photo-1479030160180-b1860951d696?&auto=format&fit=crop&w=1200&q=80",
+      "link": "https://google.com",
+      "id": "1"
+    },
+    {
+      "title": "React JS Development",
+      "desc": "ReactJS is renowned for its extensibility, adjustability, and convenience. Toptal ReactJS developers create complex software for your business, including web browsers and mobile application user interfaces.",
+      "image": "fdfsfdfsdf",
+      "link": "sdfsdfsf",
+      "id": "dfc1"
+    },
+    {
+      "title": "Qr Code",
+      "desc": "Mobile App",
+      "image": "https://images.unsplash.com/photo-1479030160180-b1860951d696?&auto=format&fit=crop&w=1200&q=80",
+      "link": "https://linksharing.samsungcloud.com/ls/public/v1/links/1711381068079LJPhMPp/contents/a9573f91eabd11ee964a66fb8c5f482d/resized/760?signature=lE6hgeKmvdOMuKaC71JBVV9ey0x6BqfKUwo1CcYQkhdN6Zhbkm5S4_MWbAD7N5JEnGdtOnz9rj5kInXdGJ94RDX0mKLRO4UH7QdiMIHGfuEhbgo9h6dGRmu5EkFF_V6m-bxSKbEv6Uz780B_AZzQ2A&storageType=file",
+      "id": "92dd"
+    }
+  ],
+  "hero-image": [
+    {
+      "imageLink": "https://images.ctfassets.net/1fvlg6xqnm65/4eR2KJaj3ra3iiftHKpn6C/412204d47bc616b3d7f833334a4bd8bd/Side_LH_header.jpg?w=1920&q=75&fm=webp",
+      "id": "1"
+    }
+  ],
+  "about-u": [
+    {
+      "name": "Mohamed Khashana",
+      "career": "Frontend Developer",
+      "personalImg": "https://images.unsplash.com/photo-1479030160180-b1860951d696?&auto=format&fit=crop&w=1200&q=80",
+      "profileImg": "",
+      "aboutu": "I'am Khashana Frontend Developer",
+      "id": "1x"
+    }
+  ]
+}
