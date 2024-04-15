@@ -9,7 +9,6 @@ import { callAboutUAPI } from '../RTK/slices/AboutUSlice';
 import { Fade, Slide } from "react-awesome-reveal";
 
 
-
 export default function Admin() {
     const personalD = useSelector((state) => state.aboutU)
     const dispatch = useDispatch()
@@ -19,15 +18,14 @@ export default function Admin() {
         // eslint-disable-next-line react-hooks/exhaustive-deps
     }, [])
 
-
     return (
         <div className='mb-5'>
             <Container style={{ paddingTop: "10vh" }}>
                 <Fade>
-                    <div className='admin-cart rounded pt-3 pb-5'>
+                    <div className='admin-cart rounded pt-3 pb-5 d-flex flex-row justify-content-between align-items-center'>
                         {
                             personalD.map((person) => (
-                                <Flex gap="4" align="center">
+                                <Flex key={person.id} gap="4" align="center">
                                     <Avatar
                                         size={{ initial: "6", sm: "8" }}
                                         src={person.profileImg}

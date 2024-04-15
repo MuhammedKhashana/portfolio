@@ -20,56 +20,6 @@
 
 
 /*  END HERO SECTION */
-/* #################################### */
-/* START ABOUT ME */
-.about-me-btns {
-    background-color: antiquewhite;
-    border-radius: 12px;
-    -webkit-border-radius: 12px;
-    -moz-border-radius: 12px;
-    -ms-border-radius: 12px;
-    -o-border-radius: 12px;
-}
-
-.about-me-btns a {
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-}
-
-.about-me-btns a:hover {
-    background-color: whitesmoke;
-    border-top-left-radius: 12px;
-    border-bottom-left-radius: 12px;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-}
-
-.about-me-btns button {
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-}
-
-.about-me-btns button:hover {
-    background-color: whitesmoke;
-    border-top-right-radius: 12px;
-    border-bottom-right-radius: 12px;
-    transition: all 0.5s;
-    -webkit-transition: all 0.5s;
-    -moz-transition: all 0.5s;
-    -ms-transition: all 0.5s;
-    -o-transition: all 0.5s;
-}
-
-/* END ABOUT ME */
 /* ############################### */
 /* START MY SERVICES */
 .my-service-container {

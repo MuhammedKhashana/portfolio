@@ -17,7 +17,7 @@ import AboutUSittings from './adminSittingPages/AboutUSittings'
 
 export default function App() {
   return (
-    <div>
+    <>
       <Navb />
       <Routes>
         <Route path='/' element={<Home />} />
@@ -38,6 +38,6 @@ export default function App() {
           </Route>
         </Route>
       </Routes>
-    </div>
+    </>
   )
 }

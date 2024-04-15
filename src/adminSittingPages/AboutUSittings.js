@@ -110,7 +110,7 @@ export default function HeroImageSittings() {
                                         <img
                                             className='homeImg h-100'
                                             src={person.personalImg}
-                                            alt="A house in a forest"
+                                            alt="person_Image"
                                             style={{
                                                 filter: 'grayscale()',
                                                 objectFit: 'cover',
@@ -129,10 +129,6 @@ export default function HeroImageSittings() {
                                             About <span className='fw-bold'>Me</span>
                                         </p>
                                         <p className='text-white fs-5'>{person.aboutu}</p>
-                                    </div>
-                                    <div className='about-me-btns w-100 d-flex flex-row justify-content-between'>
-                                        <Link className='btn fw-medium'>Hire Me</Link>
-                                        <button className='btn fw-semibold'>Download CV</button>
                                     </div>
                                 </Box>
                             </Fade>

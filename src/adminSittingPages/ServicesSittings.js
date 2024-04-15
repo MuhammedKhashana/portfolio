@@ -13,6 +13,7 @@ import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import { Link } from 'react-router-dom';
 import { Fade } from "react-awesome-reveal";
+import {Trash3} from 'react-bootstrap-icons'
 
 
 
@@ -88,7 +89,7 @@ export default function ServicesSittings() {
                             services.map((serv) => (
                                 <Box key={serv.id}>
                                     <Card className='service-setting-card rounded p-3 d-flex flex-column flex-sm-row align-items-center'>
-                                        <Card.Img className='service-setting-Img' variant="top" src={serv.icon} style={{ aspectRatio: "3/4" }} />
+                                        <Card.Img className='service-setting-Img' variant="top" src={serv.icon} style={{ aspectRatio: "3/2" }} />
                                         <Card.Body className='service-setting-card-txt d-flex flex-column justify-content-center'>
                                             <Card.Title>{serv.title}</Card.Title>
                                             <Card.Text>{serv.desc}</Card.Text>
@@ -98,7 +99,7 @@ export default function ServicesSittings() {
                                                 <Popover.Trigger>
                                                     <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-pencil-square" viewBox="0 0 16 16">
                                                         <path d="M15.502 1.94a.5.5 0 0 1 0 .706L14.459 3.69l-2-2L13.502.646a.5.5 0 0 1 .707 0l1.293 1.293zm-1.75 2.456-2-2L4.939 9.21a.5.5 0 0 0-.121.196l-.805 2.414a.25.25 0 0 0 .316.316l2.414-.805a.5.5 0 0 0 .196-.12l6.813-6.814z" />
-                                                        <path fill-rule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
+                                                        <path fillRule="evenodd" d="M1 13.5A1.5 1.5 0 0 0 2.5 15h11a1.5 1.5 0 0 0 1.5-1.5v-6a.5.5 0 0 0-1 0v6a.5.5 0 0 1-.5.5h-11a.5.5 0 0 1-.5-.5v-11a.5.5 0 0 1 .5-.5H9a.5.5 0 0 0 0-1H2.5A1.5 1.5 0 0 0 1 2.5z" />
                                                     </svg>
                                                 </Popover.Trigger>
                                                 <Popover.Content size="1" style={{ minWidth: "72vw" }}>
@@ -131,11 +132,8 @@ export default function ServicesSittings() {
                                                     </Popover.Close>
                                                 </Popover.Content>
                                             </Popover.Root>
-                                            <button className='btn' onClick={() => dispatch(deleteServiceAsync(serv.id)).then(toast.info('You Have Deleted Service'))}>
-                                                <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-trash" viewBox="0 0 16 16">
-                                                    <path d="M5.5 5.5A.5.5 0 0 1 6 6v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m2.5 0a.5.5 0 0 1 .5.5v6a.5.5 0 0 1-1 0V6a.5.5 0 0 1 .5-.5m3 .5a.5.5 0 0 0-1 0v6a.5.5 0 0 0 1 0z" />
-                                                    <path d="M14.5 3a1 1 0 0 1-1 1H13v9a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V4h-.5a1 1 0 0 1-1-1V2a1 1 0 0 1 1-1H6a1 1 0 0 1 1-1h2a1 1 0 0 1 1 1h3.5a1 1 0 0 1 1 1zM4.118 4 4 4.059V13a1 1 0 0 0 1 1h6a1 1 0 0 0 1-1V4.059L11.882 4zM2.5 3h11V2h-11z" />
-                                                </svg>
+                                            <button className='btn shadow-0' onClick={() => dispatch(deleteServiceAsync(serv.id)).then(toast.info('You Have Deleted Service'))}>
+                                                <Trash3 size={'20'}/>
                                             </button>
                                         </div>
                                     </Card>

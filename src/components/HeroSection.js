@@ -47,7 +47,7 @@ export default function HeroSection() {
                     </Text>
                     {
                         personalD.map((person) => (
-                            <Text size={{ initial: "6", sm: "9" }} weight={{ initial: "bold" }} className='text-white'>{person.name}</Text>
+                            <Text key={person.id} size={{ initial: "6", sm: "9" }} weight={{ initial: "bold" }} className='text-white'>{person.name}</Text>
                         ))
                     }
                     <Text size={{ initial: "1", sm: "5" }} className='text-white'>

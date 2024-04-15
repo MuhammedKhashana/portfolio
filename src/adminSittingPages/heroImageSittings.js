@@ -29,7 +29,7 @@ export default function HeroImageSittings() {
         <div style={{ minHeight: "100vh", marginTop: "8vh" }}>
             {
                 heroImgFrAPI.map((img) => (
-                    <Container className='homeImg-setting-container d-flex flex-column justify-content-center'>
+                    <Container key={img.id} className='homeImg-setting-container d-flex flex-column justify-content-center'>
                         <Fade>
                             <div className='d-flex flex-row justify-content-between align-items-center'>
                                 <Link to={'/admin'}><Arrow90degLeft color="white" size={25} /></Link>
